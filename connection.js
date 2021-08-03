@@ -14,3 +14,5 @@ conn.connect( (error) => {
 
     console.log('mysql running')
 })
+
+module.exports = conn;
